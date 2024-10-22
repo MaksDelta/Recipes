@@ -1,0 +1,24 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jest": true // Додаємо середовище Jest
+  },
+  "settings": {
+    "react": {
+      "version": "detect" // Автоматичне визначення версії React
+    }
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "rules": {
+    // Ваші правила тут
+  },
+  "globals": {
+    "test": "readonly", // Додаємо test як глобальну змінну
+    "expect": "readonly" // Додаємо expect як глобальну змінну
+  }
+}
